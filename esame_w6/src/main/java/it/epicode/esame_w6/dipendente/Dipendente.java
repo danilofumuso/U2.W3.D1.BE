@@ -1,10 +1,13 @@
 package it.epicode.esame_w6.dipendente;
 
+import it.epicode.esame_w6.auth.Role;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 import lombok.extern.apachecommons.CommonsLog;
+
+import java.util.Set;
 
 @Data
 @Entity
@@ -28,5 +31,5 @@ public class Dipendente {
 
     @Column(name="url_foto_profilo")
     private String urlFotoProfilo;
-
+    
 }

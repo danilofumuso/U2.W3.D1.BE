@@ -3,6 +3,7 @@ package it.epicode.esame_w6.dipendente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -10,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/dipendenti")
+@PreAuthorize("isAuthenticated()") // da accesso solo a chi autorizzato
 public class DipendenteController {
 
     @Autowired
@@ -61,6 +63,7 @@ public class DipendenteController {
     }
 
     @DeleteMapping("/{id}")
+    @PreAuthorize("hasRole('ROLE_ADMIN')") //questo concede l'eliminazione soltanto all'admin!
     public ResponseEntity<String> deleteDipendente(@PathVariable Long id) {
         dipendenteService.deleteDipendente(id);
         return new ResponseEntity<>("Dipendente eliminato correttamente!", HttpStatus.NO_CONTENT);
