@@ -1,7 +1,7 @@
-package it.epicode.esame_w6.prenotazione;
+package it.epicode.esercizio.W7.D1.prenotazione;
 
-import it.epicode.esame_w6.dipendente.Dipendente;
-import it.epicode.esame_w6.viaggio.Viaggio;
+import it.epicode.esercizio.W7.D1.dipendente.Dipendente;
+import it.epicode.esercizio.W7.D1.viaggio.Viaggio;
 import jakarta.persistence.*;
 import lombok.Data;
 import org.hibernate.annotations.OnDelete;

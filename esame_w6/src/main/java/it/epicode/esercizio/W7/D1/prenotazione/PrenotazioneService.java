@@ -1,10 +1,10 @@
-package it.epicode.esame_w6.prenotazione;
+package it.epicode.esercizio.W7.D1.prenotazione;
 
-import it.epicode.esame_w6.dipendente.Dipendente;
-import it.epicode.esame_w6.dipendente.DipendenteService;
-import it.epicode.esame_w6.exceptions.PrenotazioneNonEffettuabileException;
-import it.epicode.esame_w6.viaggio.Viaggio;
-import it.epicode.esame_w6.viaggio.ViaggioService;
+import it.epicode.esercizio.W7.D1.dipendente.Dipendente;
+import it.epicode.esercizio.W7.D1.dipendente.DipendenteService;
+import it.epicode.esercizio.W7.D1.exceptions.PrenotazioneNonEffettuabileException;
+import it.epicode.esercizio.W7.D1.viaggio.Viaggio;
+import it.epicode.esercizio.W7.D1.viaggio.ViaggioService;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.validation.Valid;
 import org.springframework.beans.BeanUtils;

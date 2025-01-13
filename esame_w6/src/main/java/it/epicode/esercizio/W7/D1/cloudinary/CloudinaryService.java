@@ -1,7 +1,7 @@
-package it.epicode.esame_w6.cloudinary;
+package it.epicode.esercizio.W7.D1.cloudinary;
 
 import com.cloudinary.Cloudinary;
-import it.epicode.esame_w6.exceptions.UploadException;
+import it.epicode.esercizio.W7.D1.exceptions.UploadException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;

@@ -1,4 +1,4 @@
-package it.epicode.esame_w6.viaggio;
+package it.epicode.esercizio.W7.D1.viaggio;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -1,4 +1,4 @@
-package it.epicode.esame_w6.viaggio;
+package it.epicode.esercizio.W7.D1.viaggio;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.FutureOrPresent;

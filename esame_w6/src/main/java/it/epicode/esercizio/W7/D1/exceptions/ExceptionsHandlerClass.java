@@ -1,4 +1,4 @@
-package it.epicode.esame_w6.exceptions;
+package it.epicode.esercizio.W7.D1.exceptions;
 
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.validation.ConstraintViolation;

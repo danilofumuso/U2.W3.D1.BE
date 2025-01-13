@@ -1,4 +1,4 @@
-package it.epicode.esame_w6.dipendente;
+package it.epicode.esercizio.W7.D1.dipendente;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

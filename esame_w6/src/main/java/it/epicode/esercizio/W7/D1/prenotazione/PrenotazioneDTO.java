@@ -1,4 +1,4 @@
-package it.epicode.esame_w6.prenotazione;
+package it.epicode.esercizio.W7.D1.prenotazione;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;

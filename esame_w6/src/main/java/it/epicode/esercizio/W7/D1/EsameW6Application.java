@@ -1,4 +1,4 @@
-package it.epicode.esame_w6;
+package it.epicode.esercizio.W7.D1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

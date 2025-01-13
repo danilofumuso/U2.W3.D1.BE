@@ -1,4 +1,4 @@
-package it.epicode.esame_w6.exceptions;
+package it.epicode.esercizio.W7.D1.exceptions;
 
 public class PrenotazioneNonEffettuabileException extends RuntimeException {
 

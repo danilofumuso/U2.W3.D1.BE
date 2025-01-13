@@ -1,6 +1,6 @@
-package it.epicode.esame_w6.dipendente;
+package it.epicode.esercizio.W7.D1.dipendente;
 
-import it.epicode.esame_w6.cloudinary.CloudinaryService;
+import it.epicode.esercizio.W7.D1.cloudinary.CloudinaryService;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
